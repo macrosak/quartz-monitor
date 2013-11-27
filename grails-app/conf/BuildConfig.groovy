@@ -33,9 +33,9 @@ grails.project.dependency.resolution = {
         compile(':rest-client-builder:1.0.2') {
             export = false
         }
-        compile(":hibernate:$grailsVersion") {
-            export = false
-        }
+//        compile(":hibernate:$grailsVersion") {
+//            export = false
+//        }
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
